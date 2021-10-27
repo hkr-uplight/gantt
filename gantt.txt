@@ -1,30 +1,40 @@
-@startuml esp8266
-!includeurl https://gist.githubusercontent.com/anoff/c531251183cf9590b0f86ac85d5bc353/raw/fancy.plantuml
-start
-:initialize Serial connection;
-:power up sensors;
+@startgantt
 
-:connecto to WiFi;
-while (connection) is (not established)
-  :wait 0.5s;
-endwhile (successful)
-:submit heartbeat;
+printscale daily zoom 2
+ganttscale daily
+<style>
+arrow {
+    LineStyle 4
+    LineThickness 2
+    LineColor blue
+}
+</style>
 
-:wait 2s;
-:read moisture level;
-:read humidty + temperature;
-while (sensor readings) is (invalid)
-  :wait 2s;
-  :read moisture level;
-  :read humidty + temperature;
-  :increase counter;
-  if (MAX_READING_RETRIES reached) then (yes)
-    :send controller to deep sleep;
-  endif
-endwhile (valid)
-:submit sensor data;
+Project starts 2021-10-28
+sundays are closed and are colored in salmon
 
-:power off sensors;
-:send controller to deep sleep;
-end
-@enduml
+-- Dan & Monica --
+
+-- Pavel --
+[Scoatere geamuri bucatarie] as [T108] starts 2021-11-02 and lasts 2 days
+[Livrare usi 4 BV] as [T990] starts 2021-11-15 and lasts 1 day
+then [Montare usi (6buc)] as [T112] lasts 1 week and is 20% completed
+[Ajout petit evier dans la chambre WC] as [T15] lasts 1 day
+[Carrelage general 1er 2eme etage] as [T105] lasts 3 days
+[Montage WC suspendu et 1 et 2] as [T14] lasts 2 days
+
+-- Pavel & Dan --
+[Montage vasque et mobilier SDB] as [T83] lasts 1 day
+[Montage mobilier cuisine] as [T83] lasts 1 day
+
+-- Altii --
+[Instalare geamuri living/bucatarie] as [T991] starts 2021-11-10 and lasts 1 day
+
+'Adding constraint
+[T108] -> [T991]
+
+'Closed days
+2021/11/01 is closed
+2021/11/11 is closed
+
+@endgantt
