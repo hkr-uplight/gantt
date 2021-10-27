@@ -1,3 +1,3 @@
-![gantt](http://www.plantuml.com/plantuml/proxy?cache=no&src=https://raw.githubusercontent.com/hkr-uplight/gantt/main/gantt.txt)
+![gantt](http://www.plantuml.com/plantuml/proxy?cache=no&src=https://raw.githubusercontent.com/hkr-uplight/gantt/main/gantt.md)
 
 https://www.planttext.com/?text=PP0nRyCW48Nt-nMtP4G2bAMRXqgjfqHHbghoGEsBIuqXXREi_ljYtCfDCm7lzBvxZognYTmRpmnmZE63MiQY9THIIo6ra0f023oJ6L6X4F1wpWUUw7EoaKRod1eq2RDyQj2PbBqAPw81ZUzmZvtvIkLgCrJli0tZrH7J3wXUNWl6i0t-5rKt_tCeMI3akqtJ6c3TczbjS25INkFnQlq0A-Lsu6p_pczkectw8BT8NQdwk0G-N2wbx7DmTcbmdqVVvr7xluRRrK-HoB-GSs46gBAjVFit
