@@ -62,7 +62,7 @@ sundays are closed
 [112 Montare usi (4buc)] as [T112] lasts 4 days and is 0% completed
 [105 Carrelage general 1er 2eme etage] as [T105] starts 2021-10-27 and lasts 2 days and is 0% completed
 [14 Montage WC suspendu et 1 et 2] as [T14] starts 2021-11-26 and lasts 2 days and is 0% completed
-[120 Repose 4 radiateurs] as [T120] starts 2021-11-05 and lasts 1 day
+[120 Repose 4 radiateurs] as [T120] starts 2021-11-04 and lasts 1 day
 
 ' ET1
 [108 Scoatere geamuri bucatarie] as [T108] starts 2021-11-03 and lasts 1 days
@@ -74,7 +74,7 @@ sundays are closed
 'ET2
 [118 Montage systeme pour roulleaux fenetres] as [T118] lasts 1 day and starts 2021-10-30
 [119 Poncage SDB] as [T119] starts 2021-10-27 and lasts 1 day
-[110 Montage radiateur SDB] as [T110] starts 2021-11-05 and lasts 1 day
+[110 Montage radiateur SDB] as [T110] starts 2021-11-04 and lasts 1 day
 [121 Cada ilot] as [T121] lasts 2 days
 [105.2 Carrelage SDB finalizat] as [T105.2] lasts 1 day
 [Usa glisanta] as [T998] starts 2021-10-28 and lasts 2 days
