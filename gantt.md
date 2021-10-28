@@ -72,7 +72,7 @@ sundays are closed
 [Poncage cuisine] as [T1000] lasts 1 day
 
 'ET2
-[118 Montage systeme pour roulleaux fenetres] as [T118] lasts 1 day and starts 2021-10-30
+[118 Montage systeme pour roulleaux fenetres] as [T118] starts 2021-10-29 and lasts 1 day
 [119 Poncage SDB] as [T119] starts 2021-10-27 and lasts 1 day
 [110 Montage radiateur SDB] as [T110] starts 2021-11-04 and lasts 1 day
 [121 Cada ilot] as [T121] lasts 2 days
