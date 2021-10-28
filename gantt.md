@@ -77,7 +77,7 @@ sundays are closed
 [110 Montage radiateur SDB] as [T110] starts 2021-11-04 and lasts 1 day
 [121 Cada ilot] as [T121] lasts 2 days
 [105.2 Carrelage SDB finalizat] as [T105.2] lasts 1 day
-[Usa glisanta] as [T998] starts 2021-10-28 and lasts 2 days
+[Usa glisanta] as [T998] starts 2021-10-28 and lasts 1 days
 
 'ET3
 [123 Reparation Infiltration Grenier] as [T123] starts 2021-10-27 and lasts 2 days
@@ -111,5 +111,6 @@ sundays are closed
 [T121] -> [T83]
 [T991] -> [T999]
 [T991] -> [T994]
+[T996] -> [T998]
 
 @endgantt
